@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+.autocomplete-container {
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+.suggestions {
+    position: absolute;
+    background: white;
+    width: 100%;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestion-item:hover {
+    background: lightgray;
+}
